@@ -1,0 +1,17 @@
+{
+    "servers": {
+        "redmine-mcp-server": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "D:\\reposhmeza\\MCPs\\mcp-redmine\\dist\\index.js"
+            ],
+            "env": {
+                "REDMINE_BASE_URL": "https://your-redmine-server.com/redmine",
+                "REDMINE_API_KEY": "your-api-key-here",
+                "LOG_LEVEL": "info"
+            },
+            "description": "MCP Server para integración con Redmine - Gestión de proyectos, issues, usuarios y más"
+        }
+    }
+}
