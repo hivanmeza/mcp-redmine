@@ -2,6 +2,11 @@
 
 ## [1.2.0] - 2025-01-29
 
+### 🎯 Compatibilidad
+- **Redmine 4.1.1.stable**: Desarrollado y optimizado específicamente para esta versión
+- Garantía de funcionalidad completa con Redmine 4.1.1.stable
+- Compatibilidad con otras versiones no garantizada
+
 ### ✨ Nueva Funcionalidad
 - **🆕 Herramienta de Ayuda Integrada**: Nueva herramienta `get_help` para autodocumentación
   - Ayuda general de todas las herramientas disponibles

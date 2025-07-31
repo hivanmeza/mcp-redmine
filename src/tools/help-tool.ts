@@ -339,7 +339,10 @@ const categoryDescriptions: Record<string, string> = {
 
 function generateMarkdownHelp(toolName?: string, category?: string): string {
     let output = `# MCP Redmine Server - Tool Documentation\n\n`;
-    output += `**Version**: 1.2.0 | **Total Tools**: ${Object.keys(toolDocumentation).length + 1}\n\n`; if (toolName && toolDocumentation[toolName]) {
+    output += `**Version**: 1.2.1 | **Total Tools**: ${Object.keys(toolDocumentation).length + 1}\n\n`;
+    output += `🎯 **Compatible with Redmine 4.1.1.stable**\n\n`;
+
+    if (toolName && toolDocumentation[toolName]) {
         const tool = toolDocumentation[toolName];
         output += generateToolMarkdown(toolName, tool);
     } else if (category && category !== 'all') {
@@ -437,7 +440,8 @@ function generateJsonHelp(toolName?: string, category?: string): any {
 
     return {
         server: 'MCP Redmine Server',
-        version: '1.2.0',
+        version: '1.2.1',
+        compatibility: 'Redmine 4.1.1.stable',
         total_tools: Object.keys(toolDocumentation).length + 1,
         categories: categoryDescriptions,
         tools: toolDocumentation
@@ -457,7 +461,7 @@ function generatePlainHelp(toolName?: string, category?: string): string {
         return `Category: ${category}\nTools: ${categoryTools.map(([name]) => name).join(', ')}`;
     }
 
-    return `MCP Redmine Server v1.2.0\nTotal Tools: ${Object.keys(toolDocumentation).length + 1}\nCategories: ${Object.keys(categoryDescriptions).filter(c => c !== 'all').join(', ')}`;
+    return `MCP Redmine Server v1.2.0\nCompatible with Redmine 4.1.1.stable\nTotal Tools: ${Object.keys(toolDocumentation).length + 1}\nCategories: ${Object.keys(categoryDescriptions).filter(c => c !== 'all').join(', ')}`;
 }
 
 export const getHelpTool = {

@@ -1,5 +1,11 @@
 # 🔧 Configuración Final MCP Redmine en VS Code
 
+## 🎯 Compatibilidad
+
+**Este MCP está desarrollado específicamente para Redmine 4.1.1.stable**
+
+Para garantizar la funcionalidad completa, asegúrate de usar Redmine 4.1.1.stable. Otras versiones pueden funcionar, pero no están oficialmente soportadas.
+
 ## ✅ Estado Actual
 
 El MCP Redmine ha sido **configurado correctamente** en VS Code. El problema anterior se debía a una configuración incorrecta que intentaba instalar el paquete en lugar de ejecutar el servidor.

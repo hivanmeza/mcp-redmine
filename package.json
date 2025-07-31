@@ -1,7 +1,7 @@
 {
   "name": "mcp-redmine",
-  "version": "1.2.0",
-  "description": "A Model Context Protocol server for Redmine project management integration",
+  "version": "1.2.1",
+  "description": "A Model Context Protocol server for Redmine 4.1.1.stable project management integration",
   "main": "dist/index.js",
   "type": "module",
   "bin": {

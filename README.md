@@ -2,6 +2,12 @@
 
 A Model Context Protocol (MCP) server that provides seamless integration with Redmine project management software. This server allows AI assistants to interact with Redmine through a comprehensive set of tools for managing projects, issues, users, time tracking, and more.
 
+## 🎯 Compatibility
+
+**Compatible with Redmine 4.1.1.stable**
+
+This MCP server has been developed and tested specifically for Redmine 4.1.1.stable. While it may work with other versions, optimal functionality is guaranteed with this version.
+
 ## Features
 
 ### Project Management
