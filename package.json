@@ -15,7 +15,7 @@
     "test-connection:prod": "node dist/test-connection.js",
     "list-projects": "ts-node --esm src/list-projects.ts",
     "list-projects:prod": "node dist/list-projects.js",
-    "clean": "if exist dist rmdir /s /q dist",
+    "clean": "rm -rf dist",
     "prebuild": "npm run clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
