@@ -19,7 +19,7 @@ El MCP Server de Redmine ha sido configurado globalmente en VS Code y está disp
     "redmine-mcp-server": {
       "type": "stdio",
       "command": "node",
-      "args": ["D:\\reposhmeza\\MCPs\\mcp-redmine\\dist\\index.js"],
+      "args": ["/path/to/global/mcp-redmine/dist/index.js"],
       "env": {
         "REDMINE_BASE_URL": "https://your-redmine-server.com/redmine",
         "REDMINE_API_KEY": "your-api-key-here",

@@ -19,7 +19,7 @@ El MCP Redmine ha sido **configurado correctamente** en VS Code. El problema ant
       "type": "stdio",
       "command": "node",
       "args": [
-        "C:\\Users\\avni_\\AppData\\Roaming\\npm\\node_modules\\mcp-redmine\\dist\\index.js"
+        "/path/to/global/mcp-redmine/dist/index.js"
       ],
       "env": {
         "REDMINE_BASE_URL": "http://localhost:3000",

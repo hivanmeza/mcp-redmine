@@ -99,7 +99,7 @@ async function validateSprint0028() {
 
         // Verificar los proyectos principales
         const mainProjects = resultsByProject.filter(p =>
-            ['dev', 'dev_cdp', 'dev_cyl', 'dev_fng', 'dev_intelix'].includes(p.identifier)
+            ['dev', 'dev_cdp', 'dev_cyl', 'dev_fng', 'dev_example'].includes(p.identifier)
         );
 
         mainProjects.forEach(project => {

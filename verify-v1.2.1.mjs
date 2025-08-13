@@ -43,7 +43,7 @@ const tests = [
 let currentTest = 0;
 let completedTests = 0;
 
-const mcpProcess = spawn('node', ['C:\\Users\\avni_\\AppData\\Roaming\\npm\\node_modules\\mcp-redmine\\dist\\index.js'], {
+const mcpProcess = spawn('node', ['/path/to/global/mcp-redmine/dist/index.js'], {
     stdio: ['pipe', 'pipe', 'pipe'],
     env: {
         ...process.env,

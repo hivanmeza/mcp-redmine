@@ -33,7 +33,7 @@
 }
 ```
 
-**📁 Ubicación**: `C:\Users\avni_\AppData\Roaming\Code\User\globalStorage\rooveterinaryinc.roo-cline\settings\cline_mcp_settings.json`
+**📁 Ubicación**: `%APPDATA%\Code\User\globalStorage\rooveterinaryinc.roo-cline\settings\cline_mcp_settings.json`
 
 ### 🧪 Pruebas de Funcionamiento
 ✅ **Comando ejecutable**: `mcp-redmine --help` funciona correctamente

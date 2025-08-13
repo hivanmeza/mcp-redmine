@@ -48,7 +48,7 @@ dist/
 
 ### Estado Global
 ```bash
-✅ Instalado en: C:\Users\avni_\AppData\Roaming\npm
+✅ Instalado en: %APPDATA%\npm
 📦 Versión: mcp-redmine@1.0.0
 🔗 Comando: node [...]/dist/index.js
 📊 Dependencias: 101 paquetes
