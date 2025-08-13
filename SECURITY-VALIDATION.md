@@ -62,7 +62,7 @@ Tu repositorio está **100% SEGURO** para publicación pública en GitHub.
 3. **Editar con datos reales:**
    ```json
    {
-       "REDMINE_BASE_URL": "https://tu-servidor-redmine.com",
+       "REDMINE_BASE_URL": "https://your-redmine-server.com",
        "REDMINE_API_KEY": "tu-clave-api-real"
    }
    ```

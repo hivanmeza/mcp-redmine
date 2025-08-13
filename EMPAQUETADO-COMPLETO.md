@@ -74,7 +74,7 @@ Agregar al archivo de configuración MCP:
         "C:\\Users\\[usuario]\\AppData\\Roaming\\npm\\node_modules\\mcp-redmine\\dist\\index.js"
       ],
       "env": {
-        "REDMINE_BASE_URL": "http://tu-servidor-redmine.com",
+        "REDMINE_BASE_URL": "http://your-redmine-server.com",
         "REDMINE_API_KEY": "tu-api-key"
       }
     }

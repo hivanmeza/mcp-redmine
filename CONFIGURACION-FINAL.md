@@ -38,7 +38,7 @@ Edita el archivo `mcp.json` y actualiza:
 
 ```json
 "env": {
-  "REDMINE_BASE_URL": "http://tu-servidor-redmine.com",
+  "REDMINE_BASE_URL": "http://your-redmine-server.com",
   "REDMINE_API_KEY": "tu-clave-api-real"
 }
 ```
@@ -71,7 +71,7 @@ El MCP debería aparecer activo en VS Code. Puedes probarlo:
 
 ### Configuración con Parámetros
 ```powershell
-.\configure-vscode-mcp.ps1 -RedmineUrl "http://mi-redmine.com" -ApiKey "mi-clave-api"
+.\configure-vscode-mcp.ps1 -RedmineUrl "http://your-redmine-server.com" -ApiKey "your-api-key-here"
 ```
 
 ## 🔍 Solución de Problemas
