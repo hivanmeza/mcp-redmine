@@ -48,7 +48,7 @@ dist/
 
 ### Estado Global
 ```bash
-✅ Instalado en: C:\Users\avni_\AppData\Roaming\npm
+✅ Instalado en: %APPDATA%\npm
 📦 Versión: mcp-redmine@1.0.0
 🔗 Comando: node [...]/dist/index.js
 📊 Dependencias: 101 paquetes
@@ -74,7 +74,7 @@ Agregar al archivo de configuración MCP:
         "C:\\Users\\[usuario]\\AppData\\Roaming\\npm\\node_modules\\mcp-redmine\\dist\\index.js"
       ],
       "env": {
-        "REDMINE_BASE_URL": "http://tu-servidor-redmine.com",
+        "REDMINE_BASE_URL": "http://your-redmine-server.com",
         "REDMINE_API_KEY": "tu-api-key"
       }
     }

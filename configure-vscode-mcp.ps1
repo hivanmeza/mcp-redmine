@@ -2,7 +2,7 @@
 # Requiere que el paquete ya esté instalado globalmente
 
 param(
-    [string]$RedmineUrl = "http://localhost:3000",
+    [string]$RedmineUrl = "https://your-redmine-server.com",
     [string]$ApiKey = "your-api-key-here"
 )
 

@@ -4,7 +4,7 @@
             "type": "stdio",
             "command": "node",
             "args": [
-                "D:\\reposhmeza\\MCPs\\mcp-redmine\\dist\\index.js"
+                "/path/to/global/mcp-redmine/dist/index.js"
             ],
             "env": {
                 "REDMINE_BASE_URL": "https://your-redmine-server.com/redmine",

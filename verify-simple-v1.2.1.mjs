@@ -8,7 +8,7 @@ import { spawn } from 'child_process';
 
 console.log('🔍 Verificando herramientas MCP Redmine v1.2.1...\n');
 
-const mcpProcess = spawn('node', ['C:\\Users\\avni_\\AppData\\Roaming\\npm\\node_modules\\mcp-redmine\\dist\\index.js'], {
+const mcpProcess = spawn('node', ['/path/to/global/mcp-redmine/dist/index.js'], {
     stdio: ['pipe', 'pipe', 'pipe'],
     env: {
         ...process.env,
