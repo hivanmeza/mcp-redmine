@@ -320,7 +320,7 @@ const toolDocumentation: Record<string, {
                 firstname: 'Redmine',
                 lastname: 'Admin',
                 mail: 'admin@example.com',
-                api_key: 'abcd1234...'
+                api_key: 'your-api-key-here'
             }
         }
     }

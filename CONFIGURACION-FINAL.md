@@ -22,7 +22,7 @@ El MCP Redmine ha sido **configurado correctamente** en VS Code. El problema ant
         "/path/to/global/mcp-redmine/dist/index.js"
       ],
       "env": {
-        "REDMINE_BASE_URL": "http://localhost:3000",
+        "REDMINE_BASE_URL": "https://your-redmine-server.com",
         "REDMINE_API_KEY": "your-api-key-here"
       }
     }
