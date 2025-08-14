@@ -40,7 +40,7 @@ This MCP server has been developed and tested specifically for Redmine 4.1.1.sta
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/hivanmeza/mcp-redmine.git
+git clone <repository-url>
 cd mcp-redmine
 ```
 
