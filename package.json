@@ -1,0 +1,45 @@
+{
+  "name": "mcp-redmine",
+  "version": "1.2.1",
+  "description": "A Model Context Protocol server for Redmine 4.1.1.stable project management integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-redmine": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node --esm src/index.ts",
+    "test-connection": "ts-node --esm src/test-connection.ts",
+    "test-connection:prod": "node dist/test-connection.js",
+    "list-projects": "ts-node --esm src/list-projects.ts",
+    "list-projects:prod": "node dist/list-projects.js",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "redmine",
+    "project-management",
+    "api",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.24.6"
+  }
+}

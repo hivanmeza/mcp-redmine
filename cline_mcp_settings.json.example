@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "redmine-mcp-server": {
+            "command": "mcp-redmine",
+            "args": [],
+            "env": {
+                "REDMINE_BASE_URL": "https://your-redmine-server.com",
+                "REDMINE_API_KEY": "your-api-key-here"
+            }
+        }
+    }
+}
