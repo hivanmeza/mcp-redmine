@@ -60,7 +60,7 @@ Features:
   • JSON Schema validation for all tools
   • Integrated help system with get_help tool
 
-Visit: https://github.com/your-repo/mcp-redmine for documentation
+Visit: https://github.com/hivanmeza/mcp-redmine for documentation
 `);
   process.exit(0);
 }
