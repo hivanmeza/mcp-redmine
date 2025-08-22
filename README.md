@@ -4,66 +4,75 @@ A Model Context Protocol (MCP) server that provides seamless integration with Re
 
 ## 🎯 Compatibility
 
+
 **Compatible with Redmine 4.1.1.stable**
 
 This MCP server has been developed and tested specifically for Redmine 4.1.1.stable. While it may work with other versions, optimal functionality is guaranteed with this version.
 
 ## Features
 
+
 ### Project Management
+
 - List, create, update, and delete projects
 - Manage project versions and roadmaps
 - Handle issue categories
 
+
 ### Issue Tracking
+
 - Comprehensive issue CRUD operations
 - Advanced filtering and search capabilities
 - Issue assignment and status management
 - Progress tracking and time estimation
 
+
 ### User Management
+
 - List users and get user details
 - Current user information
 - User assignment to issues
 
+
 ### Time Tracking
+
 - Create and list time entries
 - Associate time with issues or projects
 - Activity-based time logging
 
+
 ### System Information
+
 - List available trackers
 - Get issue statuses and priorities
 - System configuration details
 
 ## Installation
 
-1. Clone this repository:
-```bash
-git clone <repository-url>
-cd mcp-redmine
+
+### Automatic Installation (Recommended)
+
+Run the following command in PowerShell (Windows):
+
+```powershell
+./install-mcp-redmine.ps1
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+This script will:
 
-3. Set up environment variables:
-```bash
-cp .env.example .env
-```
+- Install all dependencies
+- Build the project
+- Create the .env file if it does not exist
+- Package and install MCP Redmine globally
 
-Edit the `.env` file with your Redmine server details:
-```
+After installation, edit the `.env` file with your Redmine server details:
+
+```env
 REDMINE_BASE_URL=https://your-redmine-server.com
 REDMINE_API_KEY=your_api_key_here
 ```
 
-4. Build the project:
-```bash
-npm run build
-```
+For manual installation steps, see DEVELOPMENT.md
 
 ## Usage
 
@@ -197,11 +206,13 @@ src/
 ```
 
 ### Building
+
 ```bash
 npm run build
 ```
 
 ### Development with auto-reload
+
 ```bash
 npm run dev
 ```
