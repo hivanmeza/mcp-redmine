@@ -7,9 +7,8 @@ Este proyecto está configurado para desarrollo óptimo en VS Code con las sigui
 ### Tareas Disponibles (Ctrl+Shift+P > "Tasks: Run Task")
 
 1. **build** - Compila el proyecto TypeScript
-2. **watch** - Ejecuta en modo desarrollo con auto-reload
-3. **test-connection** - Prueba la conexión con Redmine
-4. **clean** - Limpia la carpeta dist
+2. **dev** - Ejecuta en modo desarrollo con auto-reload
+3. **clean** - Limpia la carpeta dist
 
 ### Configuraciones de Debug (F5)
 
@@ -28,10 +27,10 @@ REDMINE_API_KEY=your-api-key-here
 LOG_LEVEL=info
 ```
 
-### 2. Probar la Conexión
+### 2. Compilar el Proyecto
 
 ```bash
-npm run test-connection:prod
+npm run build
 ```
 
 ### 3. Ejecutar en Modo Desarrollo
@@ -136,7 +135,7 @@ El MCP Server incluye las siguientes herramientas:
 
 1. **Logs**: Cambia `LOG_LEVEL=debug` en `.env` para más información
 2. **Hot Reload**: Usa `npm run dev` para desarrollo con recarga automática
-3. **Testing**: Usa `npm run test-connection:prod` antes de integrar
+3. **Building**: Usa `npm run build` para compilar el proyecto
 4. **Debugging**: Los source maps están habilitados para debugging fácil
 
 ## Estructura del Proyecto
@@ -144,7 +143,6 @@ El MCP Server incluye las siguientes herramientas:
 ```
 src/
 ├── index.ts                    # Servidor MCP principal
-├── test-connection.ts          # Script de prueba de conexión
 ├── client/
 │   └── redmine-client.ts      # Cliente API de Redmine
 ├── tools/                     # Herramientas MCP organizadas por funcionalidad
